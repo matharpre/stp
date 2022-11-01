@@ -5,6 +5,7 @@ A functional data transmission protocol based on sound!
 
 # HOW TO OPERATE:
 Encoding:
+
     ./encode.bash <input file> <bandnum> <pulse duration> <debug (optional)>
 
      Description: Extracts data from a previously encoded waveform (.wav) audio
@@ -19,7 +20,8 @@ Encoding:
                             Default: 0.1
           <debug>           Enter any value to display debug information (optional).
 Decoding:
-     ./decode.bash <input file> <output file> <bandnum> <pulse duration> <sensitivity> <debug (optional)>
+            
+    ./decode.bash <input file> <output file> <bandnum> <pulse duration> <sensitivity> <debug (optional)>
 
      Description: Extracts data from a previously encoded waveform (.wav) audio
      Options:
