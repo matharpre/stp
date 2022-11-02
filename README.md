@@ -3,7 +3,13 @@ The Sonar Transmission Protocol
   
 A functional data transmission protocol based on sound!
 
-# HOW TO OPERATE:
+## Dependencies:
+  Both can be obtained through standard package managers.
+     
+     sox (sox, libsox-fmt-all)
+     bc (bc)
+
+## HOW TO OPERATE:
 Encoding:
 
     ./encode.bash <input file> <bandnum> <pulse duration> <debug (optional)>
