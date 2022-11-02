@@ -106,7 +106,7 @@ case $debug in
 (*) echo "DEBUG: Starttime1: $starttime1 Starttime2: $starttime2 Starttime3: $starttime3 Starttime4: $starttime4"
 esac
 echo "INFO: Found PTI at $start - $finish (s), continuing search..."
-start=$(echo $finish + $(echo "$pulseduration / 2" | bc -l | cut -c 1-3) + $(echo "$pulseduration / 2" | bc -l | cut -c 1-3) | bc)
+start=$(echo $finish + $(echo "$pulseduration / 2" | bc -l | cut -c 1-3) + $(echo "$pulseduration / 2" | bc -l | cut -c 1-3) + $(echo "$pulseduration / 2" | bc -l | cut -c 1-3) | bc)
 finish=$(echo $start + $(echo "$pulseduration / 2" | bc -l | cut -c 1-3) | bc)
 else
 start=$finish
