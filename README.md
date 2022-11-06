@@ -44,3 +44,10 @@ Decoding:
                             loudness, so changing it might help solve a decoding issue.
                             Values ranging from 1 to 10 are accepted.
           <debug>           Enter any value to display debug information (optional).
+          
+          
+# Credits
+* SOund eXchange: [GitHub](https://github.com/chirlu/sox) \
+Simple command-line audio manipulation software which allowed for all of the waveform conversions in this program
+* GNU Best Calculator [homepage](https://www.gnu.org/software/bc/) \
+Simple arithmetic calculator for shell scripts like BASH
